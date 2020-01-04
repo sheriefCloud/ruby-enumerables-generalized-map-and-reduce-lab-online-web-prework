@@ -10,7 +10,7 @@ end
 
 def reduce(array, starting_point=nil) # will not expect a starting_point unless give explecetly
   if sv
-    sum = sv
+    sum = starting_point
     counter = 0
   else
     sum = array[0]
