@@ -9,7 +9,7 @@ def map(array)
 end
 
 def reduce(array, starting_point=nil) # will not expect a starting_point unless give explecetly
-  if sv
+  if starting_point
     sum = starting_point
     counter = 0
   else
