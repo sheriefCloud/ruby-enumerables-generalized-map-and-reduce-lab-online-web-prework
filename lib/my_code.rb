@@ -14,9 +14,8 @@ def reduce(array, starting_point=nil) # will not expect a starting_point unless 
     counter = 0
   else
     sum = array[0]
-    i = 1
+    counter = 1
   end
-
   while counter < array.size
     sum = yield(sum, array[counter])
     counter += 1
